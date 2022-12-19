@@ -1,0 +1,11 @@
+.errorimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  flex-direction: column;
+  padding: 50px;
+  h1 {
+    font-family: monospace;
+  }
+}

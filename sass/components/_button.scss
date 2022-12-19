@@ -1,0 +1,10 @@
+.headerBtn {
+  padding: 25px 40px;
+  background-color: $secondColor;
+  border-radius: 8px;
+  border-color: transparent;
+
+  &:hover {
+    background-color: $mainColor;
+  }
+}

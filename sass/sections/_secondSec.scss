@@ -1,0 +1,36 @@
+.secondSec {
+  width: 90%;
+  margin: 100px auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  & > div {
+    position: relative;
+    width: 430px;
+    text-align: center;
+    margin: 5px;
+    img {
+      max-width: 100%;
+    }
+    .wrapText {
+      padding: 25px;
+      h2,
+      p {
+        font-family: sans-serif;
+      }
+      p {
+        color: gray;
+      }
+    }
+  }
+}
+.center::after {
+  position: absolute;
+  width: 23px;
+  height: 150px;
+  top: 13px;
+  background-color: black;
+}

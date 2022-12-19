@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/bdb345e4fa.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- swiper -->
+    <link rel="stylesheet" href="sass/swiper-bundle.min.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="sass/main.css" />
+  </head>
+  <body>
+    <!-- header  -->
+    <header id="header">
+      <div class="collaps" id="openNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <a href="/">
+        <img
+          src="images/logo.png"
+          class="darkLogo"
+          width="150px"
+          height="45px"
+        />
+      </a>
+      <img
+        src="images/logo-foot.png"
+        class="ligthLogo"
+        width="150px"
+        height="45px"
+      />
+      <div class="headerLinks">
+        <a class="active"
+          >Home <i class="fa-solid fa-chevron-down"></i>
+          <div class="homemenue">
+            <div><img src="images/mega-1.jpg" alt="" /></div>
+            <div><img src="images/mega-2.jpg" alt="" /></div>
+            <div><img src="images/mega-3.jpg" alt="" /></div>
+            <div><img src="images/mega-4.jpg" alt="" /></div>
+          </div>
+        </a>
+
+        <a href="error.html" target="_self">Pages </a>
+        <a href="error.html" target="_self">Blog</a>
+        <a href="error.html" target="_self">Shops </a>
+        <a href="error.html" target="_self">Contact </a>
+      </div>
+      <div class="phoneNum">
+        <a href="#" class="num">+ 1 800 1234 600 </a>
+        <button class="headerBtn">Contact us</button>
+      </div>
+    </header>
+    
+    <button class="toUp">
+      <i class="fa-solid fa-arrow-right-long leftarrow"> </i>
+    </button>
+
+    <!-- verticalNav -->
+    <div class="verticalNav" id="navMenue">
+      <div class="after" id="close">&#10006;</div>
+      <div class="containMenue" id="containMenue">
+        <p>zeptech</p>
+
+        <ul>
+          <li onclick="openAndClose(0)">
+            <a>Home</a>
+            <i class="fa-solid fa-chevron-down arrow"></i>
+            <div class="showenCon">
+              <ul>
+                <li>Home 1</li>
+                <li>Home 2</li>
+                <li>Home 3</li>
+              </ul>
+            </div>
+          </li>
+
+          <li onclick="openAndClose(1)">
+            <a>Bloge</a>
+            <i class="fa-solid fa-chevron-down arrow"></i>
+            <div class="showenCon">
+              <ul>
+                <li>blog 1</li>
+                <li>blog 2</li>
+                <li>blog 3</li>
+              </ul>
+            </div>
+          </li>
+          <li onclick="openAndClose(2)">
+            <a>Pages</a>
+            <i class="fa-solid fa-chevron-down arrow"></i>
+            <div class="showenCon">
+              <ul>
+                <li>Page 1</li>
+                <li>Page 2</li>
+                <li>Page 3</li>
+              </ul>
+            </div>
+          </li>
+
+          <li onclick="openAndClose(3)">
+            <a>shop</a>
+            <i class="fa-solid fa-chevron-down arrow"></i>
+            <div class="showenCon">
+              <ul>
+                <li>Shop 1</li>
+                <li>Shop 2</li>
+                <li>Shop 3</li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <a>Contact</a>
+          </li>
+
+          <li>
+            <a>Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- first Section -->
+    <div class="firstSec">
+      <div class="overlay">
+        <h1 id="digital">digital</h1>
+      </div>
+      <div class="main">
+        <div class="left">
+          <h2>measurable &</h2>
+          <h2>effective results</h2>
+          <h2>effective results for customer</h2>
+          <p>your business from creative ideas</p>
+          <button class="headerBtn">Get start</button>
+          <i class="fa-solid fa-location-arrow" style="margin-left: 30px"></i>
+          <a class="telegram">join telegram</a>
+        </div>
+        <div class="right">
+          <div class="holdimgs">
+            <img
+              src="images/3d-handhold-phone-mobile.png"
+              width="85%"
+              height="70%"
+              class="mainImage"
+            />
+            <img
+              src="images/coub-img-2 (1).png"
+              alt=""
+              width="25%"
+              height="23%"
+              class="coubup"
+              id="coub1"
+            />
+            <img
+              src="images/coub-img-1.png"
+              alt=""
+              width="25%"
+              height="23%"
+              class="coubdown"
+              id="coub2"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- seconde Section -->
+    <div class="secondSec">
+      <div class="">
+        <img
+          src="images/credit-card-1-pbslqqe9jk1vj2q91wpyh3nfu72maa0h94gxn84oww.jpg"
+          height="280px"
+        />
+        <div class="wrapText">
+          <h2>DIGITAL SOLUTIONS</h2>
+          <p>
+            We want to bring a splash of colour into a see mingly grey world and
+            become
+          </p>
+        </div>
+      </div>
+      <div class="center">
+        <img
+          src="images/golden-coin-holding-pbskiecawcg9yc9hg8ygi44cj4iqsu44ne94yrm1js.jpg"
+          height="280px"
+        />
+        <div class="wrapText">
+          <h2>DIGITAL SOLUTIONS</h2>
+          <p>
+            We want to bring a splash of colour into a see mingly grey world and
+            become
+          </p>
+        </div>
+      </div>
+      <div class="">
+        <img
+          src="images/online-payment-pbskhwhclxnhs23g72ldxdz3wr7yn3zd9jy5na29wg.jpg"
+          height="280px"
+        />
+        <div class="wrapText">
+          <h2>DIGITAL SOLUTIONS</h2>
+          <p>
+            We want to bring a splash of colour into a see mingly grey world and
+            become
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- business growing Section -->
+
+    <div class="business">
+      <div>
+        <img src="images/img-4-removebg-preview.png" class="imageB" />
+      </div>
+      <div class="wrapB">
+        <div class="disB">
+          <h2>WE HELP BUSINESS GROWING UP</h2>
+          <p>
+            Personalization assumed up an excess of position in the showcasing
+            space and has made each and every one of your messages exhausting
+            and without feelings.
+          </p>
+
+          <p class="listB">Creating a great digital experience</p>
+          <p class="listB">Focus on people, interactions and collaboration</p>
+          <p class="listB">High standards of professionalism</p>
+          <p class="listB">A different way of thinking, both inside</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- services Section -->
+
+    <div class="services">
+      <img />
+      <div class="counters">
+        <div>
+          <h2 class="counter" data-goal="51">0</h2>
+          <p>YEARS OF EXPERIENCE</p>
+        </div>
+        <div>
+          <h2 class="counter" data-goal="35">0</h2>
+          <p>WORDWIDE CLIENTS</p>
+        </div>
+        <div>
+          <h2 class="counter" data-goal="250">0</h2>
+          <p>VISITED CONFERENCES</p>
+        </div>
+        <div>
+          <h2 class="counter" data-goal="74">0</h2>
+          <p>MASTER CERTIFICATIONS</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <p>01</p>
+          <h2>product development</h2>
+          <p class="text">
+            strategy experience and analytics exercises combine
+          </p>
+          <i class="fa-solid fa-arrow-right-long leftarrow"></i>
+          <span>learn more</span>
+          <i class="fa-solid fa-arrow-right-long rightarrow"></i>
+        </div>
+        <div class="card">
+          <p>02</p>
+          <h2>product development</h2>
+          <p class="text">
+            strategy experience and analytics exercises combine
+          </p>
+          <i class="fa-solid fa-arrow-right-long leftarrow"></i>
+          <span>learn more</span>
+          <i class="fa-solid fa-arrow-right-long rightarrow"></i>
+        </div>
+        <div class="card">
+          <p>03</p>
+          <h2>product development</h2>
+          <p class="text">
+            strategy experience and analytics exercises combine
+          </p>
+          <i class="fa-solid fa-arrow-right-long leftarrow"></i>
+          <span>learn more</span>
+          <i class="fa-solid fa-arrow-right-long rightarrow"></i>
+        </div>
+        <div class="card">
+          <p>04</p>
+          <h2>product development</h2>
+          <p class="text">
+            strategy experience and analytics exercises combine
+          </p>
+          <i class="fa-solid fa-arrow-right-long leftarrow"></i>
+          <span>learn more</span>
+          <i class="fa-solid fa-arrow-right-long rightarrow"></i>
+        </div>
+        <div class="card">
+          <p>05</p>
+          <h2>product development</h2>
+          <p class="text">
+            strategy experience and analytics exercises combine
+          </p>
+          <i class="fa-solid fa-arrow-right-long leftarrow"></i>
+          <span>learn more</span>
+          <i class="fa-solid fa-arrow-right-long rightarrow"></i>
+        </div>
+        <div class="card">
+          <p>06</p>
+          <h2>product development</h2>
+          <p class="text">
+            strategy experience and analytics exercises combine
+          </p>
+          <i class="fa-solid fa-arrow-right-long leftarrow"></i>
+          <span>learn more</span>
+          <i class="fa-solid fa-arrow-right-long rightarrow"></i>
+        </div>
+        <div class="card">
+          <p>07</p>
+          <h2>product development</h2>
+          <p class="text">
+            strategy experience and analytics exercises combine
+          </p>
+          <i class="fa-solid fa-arrow-right-long leftarrow"></i>
+          <span>learn more</span>
+          <i class="fa-solid fa-arrow-right-long rightarrow"></i>
+        </div>
+        <div class="card">
+          <p>08</p>
+          <h2>product development</h2>
+          <p class="text">
+            strategy experience and analytics exercises combine
+          </p>
+          <i class="fa-solid fa-arrow-right-long leftarrow"></i>
+          <span>learn more</span>
+          <i class="fa-solid fa-arrow-right-long rightarrow"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- experience Section -->
+    <div class="experience">
+      <div class="wrap">
+        <div class="header">
+          <h1>A QUALITY DIGITAL EXPERIENCE</h1>
+          <h1>FOR EVERYONE</h1>
+        </div>
+        <div class="overlay">
+          <h2>strategy</h2>
+        </div>
+      </div>
+
+      <div class="catogary">
+        <div>
+          <div class="item">
+            <img src="images/ib-icon-1.png" alt="" width="40px" height="30%" />
+            <div>
+              <h2>custom targeting</h2>
+              <p>
+                Custom targeting allows you to include key-values, audience
+                segments, or content metadata
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="images/ib-icon-7.png" alt="" width="40px" height="30%" />
+            <div>
+              <h2>custom targeting</h2>
+              <p>
+                Custom targeting allows you to include key-values, audience
+                segments, or content metadata
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="images/ib-icon-6.png" alt="" width="40px" height="30%" />
+            <div>
+              <h2>custom targeting</h2>
+              <p>
+                Custom targeting allows you to include key-values, audience
+                segments, or content metadata
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <div class="item" id="four">
+              <img
+                src="images/ib-icon-6.png"
+                alt=""
+                width="40px"
+                height="30%"
+              />
+              <div>
+                <h2>custom targeting</h2>
+                <p>
+                  Custom targeting allows you to include key-values, audience
+                  segments, or content metadata
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <img
+                src="images/vector-img-6.png"
+                alt=""
+                width="40px"
+                height="30%"
+              />
+              <div>
+                <h2>custom targeting</h2>
+                <p>
+                  Custom targeting allows you to include key-values, audience
+                  segments, or content metadata
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <img
+                src="images/ib-icon-4.png"
+                alt=""
+                width="40px"
+                height="30%"
+              />
+              <div>
+                <h2>custom targeting</h2>
+                <p>
+                  Custom targeting allows you to include key-values, audience
+                  segments, or content metadata
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- swiper Section -->
+
+    <div class="slide-container swiper">
+      <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="card-image">
+                <img
+                  src="images/round-phone-742x742.jpg"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+            </div>
+
+            <div class="card-content">
+              <div>
+                <i class="fa-solid fa-calendar-days usericone"></i>
+                <span class="name">july 22 , 2021</span>
+                <i class="fa-regular usericone fa-circle-user"></i>
+                <span class="name">By liana ker</span>
+              </div>
+              <p class="description">how do you interested to and male?</p>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="card-image">
+                <img src="images/blog_01-742x742.jpg" alt="" class="card-img" />
+              </div>
+            </div>
+
+            <div class="card-content">
+              <div>
+                <i class="fa-solid fa-calendar-days usericone"></i>
+                <span class="name">july 22 , 2021</span>
+                <i class="fa-regular usericone fa-circle-user"></i>
+                <span class="name">By liana ker</span>
+              </div>
+              <p class="description">how do you interested to and male?</p>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="card-image">
+                <img
+                  src="images/behar-zenuni-742x742.jpg"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+            </div>
+
+            <div class="card-content">
+              <div>
+                <i class="fa-solid fa-calendar-days usericone"></i>
+                <span class="name">july 22 , 2021</span>
+                <i class="fa-regular usericone fa-circle-user"></i>
+                <span class="name">By liana ker</span>
+              </div>
+              <p class="description">how do you interested to and male?</p>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="card-image">
+                <img
+                  src="images/close-up-young-742x742.jpg"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+            </div>
+
+            <div class="card-content">
+              <div>
+                <i class="fa-solid fa-calendar-days usericone"></i>
+                <span class="name">july 22 , 2021</span>
+                <i class="fa-regular usericone fa-circle-user"></i>
+                <span class="name">By liana ker</span>
+              </div>
+              <p class="description">how do you interested to and male?</p>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="card-image">
+                <img src="images/kiran-742x742.jpg" alt="" class="card-img" />
+              </div>
+            </div>
+
+            <div class="card-content">
+              <div>
+                <i class="fa-solid fa-calendar-days usericone"></i>
+                <span class="name">july 22 , 2021</span>
+                <i class="fa-regular usericone fa-circle-user"></i>
+                <span class="name">By liana ker</span>
+              </div>
+              <p class="description">how do you interested to and male?</p>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="card-image">
+                <img
+                  src="images/woman-experiencing-vr-742x742.jpg"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+            </div>
+
+            <div class="card-content">
+              <div>
+                <i class="fa-solid fa-calendar-days usericone"></i>
+                <span class="name">july 22 , 2021</span>
+                <i class="fa-regular usericone fa-circle-user"></i>
+                <span class="name">By liana ker</span>
+              </div>
+              <p class="description">how do you interested to and male?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- footer section  -->
+
+    <footer>
+      <div>
+        <h1>TIME TO MOVE ON TO INDIVIDUAL SOLUTIONS.</h1>
+        <img src="images/logo-foot.png" alt="logo" height="60px" />
+      </div>
+      <div>
+        <h3>CONTACT US</h3>
+        <div class="wrap">
+          <i class="fa-solid fa-location-dot icon"></i>
+          <span> 27 Division St, New York, NY 10002, USA</span>
+        </div>
+
+        <div class="wrap">
+          <i class="fa-solid fa-at icon"></i>
+          <span> zeptech@mailexample.com </span>
+        </div>
+
+        <div class="wrap">
+          <i class="fa-solid fa-phone icon"></i>
+          <span> +1 800 123 456 789</span>
+        </div>
+      </div>
+
+      <div>
+        <h3>SUBSCRIBE</h3>
+        <p>Stay always in touch! Subscribe to our newsletter.</p>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+        <button class="headerBtn">subscripe</button>
+      </div>
+    </footer>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

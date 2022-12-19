@@ -1,0 +1,59 @@
+<div class="firstSec">
+  <div class="overlay">
+    <h1>digital</h1>
+  </div>
+  <div class="main">
+    <div class="left">
+      <h2>measurable &</h2>
+      <h2>effective results</h2>
+      <h2>effective results for customer</h2>
+      <p>your business from creative ideas</p>
+      <button class="headerBtn">Get start</button>
+      <i class="fa-brands fa-telegram" style="margin-left: 30px"></i>
+      <a class="telegram">join telegram</a>
+    </div>
+    <div class="right">
+      <div class="holdimgs">
+        <img
+          src="images/3d-handhold-phone-mobile.png"
+          width="85%"
+          height="70%"
+          class="mainImage"
+        />
+        <img
+          src="images/coub-img-2 (1).png"
+          alt=""
+          width="25%"
+          height="23%"
+          class="coubup"
+        />
+        <img
+          src="images/coub-img-1.png"
+          alt=""
+          width="25%"
+          height="23%"
+          class="coubdown"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+\ ---------------------------------------------------------------- .firstSec {
+border: 1px solid red; position: relative; background-color: transparent;
+div.overlay { position: absolute; width: 99%; // height: 100%; background-color:
+rgba(241, 241, 251, 0.8); padding: 5px; z-index: 3; h1 { text-transform:
+uppercase; color: white; font-weight: bold; font-size: 15em; font-family:
+monospace; letter-spacing: 2px; margin: 100px 0 2px 30px; } } .main { @media
+(max-width: 985px) { flex-direction: column; } position: absolute;
+background-color: transparent; width: 100%; display: flex; justify-content:
+center; align-items: center; z-index: 3; padding: 25px; .left { padding: 45px 0
+0 70px; i { color: rgb(91, 159, 242); font-size: 22px; position: relative; top:
+3px; } .telegram { color: $mainColor; cursor: pointer; &:hover { color:
+$secondColor; } } p { color: gray; text-transform: uppercase; font-size: 20px;
+padding: 15px 0 35px; border-bottom: 1px solid gray; margin-bottom: 35px; } h2 {
+font-family: "Rubik", sans-serif; font-size: 60px; padding: 0; margin: 0 0 5px;
+text-transform: uppercase; } } & > div { @media (max-width: 985px) { width:
+100%; } width: 50%; background-color: transparent; position: relative; } } }
+.holdimgs { position: relative; width: auto; height: auto; .mainImage { display:
+block; margin-left: auto; } } .coubup { position: absolute; top: 20%; right:
+25px; } .coubdown { position: absolute; bottom: 19%; left: 15%; }

@@ -1,0 +1,14 @@
+.toUp {
+  position: fixed;
+  background-color: $mainColor;
+  z-index: 100;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 15px;
+  bottom: 10px;
+  color: white;
+  font-size: large;
+  right: 30px;
+  display: none;
+  transform: rotate(270deg);
+}

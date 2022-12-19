@@ -1,0 +1,35 @@
+// Abstract files
+@import "abstracts/variables";
+
+// Core files
+@import "core/typography";
+
+// Components
+@import "components/button";
+@import "components/toup";
+
+// Layout
+@import "layout/header";
+@import "layout/verticalNav";
+@import "layout/footer";
+
+// pages
+@import "pages/error";
+
+// Sections
+@import "sections/first";
+@import "sections/secondSec";
+@import "sections/services";
+@import "sections/business";
+@import "sections/experience";
+@import "sections/swiper";
+
+// Pages
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f3f3fc;
+  box-sizing: border-box;
+  position: relative;
+}

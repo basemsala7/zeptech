@@ -1,0 +1,41 @@
+footer {
+  background-color: $thirdColor;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  > div {
+    width: 350px;
+    height: 350px;
+    padding: 35px;
+    color: white;
+    h1 {
+      
+      margin-bottom: 15px;
+    }
+    input {
+      background-color: #bcb5ad66;
+      width: 100%;
+      height: 55px;
+      border-radius: 5px;
+      padding-left: 12px;
+      border: 1px solid transparent;
+      margin: 15px 0;
+    }
+    .icon {
+      color: $secondColor;
+      background-color: #bcb5ad66;
+      padding: 15px;
+      font-size: 30px;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+    .wrap {
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+    
+    }
+  }
+}

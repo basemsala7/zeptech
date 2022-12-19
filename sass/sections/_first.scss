@@ -1,0 +1,111 @@
+.firstSec {
+  height: 100vh;
+  overflow: hidden;
+  @media (max-width: 985px) {
+    height: 180vh;
+  }
+  position: relative;
+  background-color: transparent;
+  div.overlay {
+    position: absolute;
+    width: 99%;
+    height: 100%;
+    background-color: rgba(241, 241, 251, 0.8);
+    padding: 5px;
+    z-index: 3;
+    h1 {
+      margin: 100px 0 2px 30px;
+      transform: translateX(-850px);
+      transition: all 2s;
+    }
+  }
+  .main {
+    @media (max-width: 985px) {
+      flex-direction: column;
+    }
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    padding: 25px;
+    .left {
+      padding: 45px 0 0 70px;
+      i {
+        color: rgb(91, 159, 242);
+        font-size: 22px;
+        position: relative;
+        top: 7px;
+      }
+      .telegram {
+        color: $mainColor;
+        cursor: pointer;
+        &:hover {
+          color: $secondColor;
+        }
+      }
+      p {
+        padding: 15px 0 35px;
+        border-bottom: 1px solid gray;
+        margin-bottom: 35px;
+      }
+      h2 {
+        padding: 0;
+        margin: 0 0 5px;
+      }
+    }
+    & > div {
+      @media (max-width: 985px) {
+        width: 100%;
+      }
+      width: 50%;
+      background-color: transparent;
+      position: relative;
+    }
+  }
+}
+.holdimgs {
+  position: relative;
+  width: auto;
+  height: auto;
+  .mainImage {
+    transition: all 2s;
+
+    display: block;
+    margin-left: auto;
+    @media (max-width: 985px) {
+      margin-left: 0;
+    }
+  }
+}
+.coubup {
+  position: absolute;
+  top: 20%;
+  right: 25px;
+  transition: all 3s;
+  animation: coub 3s linear 0.3s infinite alternate-reverse;
+  @media (max-width: 985px) {
+    right: 12%;
+  }
+}
+.coubdown {
+  position: absolute;
+  transition: all 3s;
+  bottom: 19%;
+  left: 15%;
+  animation: coub 3s linear 0.3s infinite alternate-reverse;
+  @media (max-width: 985px) {
+    left: 2%;
+  }
+}
+
+@keyframes coub {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(15px, 10px);
+  }
+}
